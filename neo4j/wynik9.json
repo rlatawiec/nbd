@@ -1,0 +1,350 @@
+﻿[
+  {
+    "r": {
+"start": {
+"identity": 0,
+"labels": [
+          "Movie"
+        ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": "2011"
+        }
+      },
+"end": {
+"identity": 6,
+"labels": [
+          "Person"
+        ],
+"properties": {
+"name": "Christopher Markus",
+"born": "1970"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 0,
+"labels": [
+              "Movie"
+            ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": "2011"
+            }
+          },
+          "relationship": {
+"identity": 5,
+"start": 6,
+"end": 0,
+"type": "WROTE",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 6,
+"labels": [
+              "Person"
+            ],
+"properties": {
+"name": "Christopher Markus",
+"born": "1970"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "r": {
+"start": {
+"identity": 0,
+"labels": [
+          "Movie"
+        ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": "2011"
+        }
+      },
+"end": {
+"identity": 5,
+"labels": [
+          "Person"
+        ],
+"properties": {
+"name": "Joe Johnston",
+"born": "1950"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 0,
+"labels": [
+              "Movie"
+            ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": "2011"
+            }
+          },
+          "relationship": {
+"identity": 4,
+"start": 5,
+"end": 0,
+"type": "DIRECTED",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Person"
+            ],
+"properties": {
+"name": "Joe Johnston",
+"born": "1950"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "r": {
+"start": {
+"identity": 0,
+"labels": [
+          "Movie"
+        ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": "2011"
+        }
+      },
+"end": {
+"identity": 4,
+"labels": [
+          "Person"
+        ],
+"properties": {
+"name": "Sebastian Stan",
+"born": "1982"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 0,
+"labels": [
+              "Movie"
+            ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": "2011"
+            }
+          },
+          "relationship": {
+"identity": 3,
+"start": 4,
+"end": 0,
+"type": "ACTED_IN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 4,
+"labels": [
+              "Person"
+            ],
+"properties": {
+"name": "Sebastian Stan",
+"born": "1982"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "r": {
+"start": {
+"identity": 0,
+"labels": [
+          "Movie"
+        ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": "2011"
+        }
+      },
+"end": {
+"identity": 3,
+"labels": [
+          "Person"
+        ],
+"properties": {
+"name": "Hayley Atwell",
+"born": "1982"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 0,
+"labels": [
+              "Movie"
+            ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": "2011"
+            }
+          },
+          "relationship": {
+"identity": 2,
+"start": 3,
+"end": 0,
+"type": "ACTED_IN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 3,
+"labels": [
+              "Person"
+            ],
+"properties": {
+"name": "Hayley Atwell",
+"born": "1982"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "r": {
+"start": {
+"identity": 0,
+"labels": [
+          "Movie"
+        ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": "2011"
+        }
+      },
+"end": {
+"identity": 2,
+"labels": [
+          "Person"
+        ],
+"properties": {
+"name": "Hugo Weaving",
+"born": "1960"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 0,
+"labels": [
+              "Movie"
+            ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": "2011"
+            }
+          },
+          "relationship": {
+"identity": 1,
+"start": 2,
+"end": 0,
+"type": "ACTED_IN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 2,
+"labels": [
+              "Person"
+            ],
+"properties": {
+"name": "Hugo Weaving",
+"born": "1960"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "r": {
+"start": {
+"identity": 0,
+"labels": [
+          "Movie"
+        ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": "2011"
+        }
+      },
+"end": {
+"identity": 1,
+"labels": [
+          "Person"
+        ],
+"properties": {
+"name": "Chris Evans",
+"born": "1981"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 0,
+"labels": [
+              "Movie"
+            ],
+"properties": {
+"title": "Captain America: The First Avenger",
+"released": "2011"
+            }
+          },
+          "relationship": {
+"identity": 0,
+"start": 1,
+"end": 0,
+"type": "ACTED_IN",
+"properties": {
+
+            }
+          },
+          "end": {
+"identity": 1,
+"labels": [
+              "Person"
+            ],
+"properties": {
+"name": "Chris Evans",
+"born": "1981"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  }
+]
