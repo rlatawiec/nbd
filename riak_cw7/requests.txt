@@ -1,0 +1,99 @@
+1.
+curl -i --location --request POST 'http://localhost:8098/buckets/s23684/keys/John' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "firstName": "John",
+    "lastName": "Smith",
+    "age": 20,
+    "height": 185.5
+}'
+
+curl --location --request POST 'http://localhost:8098/buckets/s23684/keys/Jane' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "age": 34,
+    "height": 164.0
+}'
+
+curl --location --request POST 'http://localhost:8098/buckets/s23684/keys/Bob' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "firstName": "Bob",
+    "lastName": "Smith",
+    "age": 20,
+    "height": 185.5
+}'
+
+curl --location --request POST 'http://localhost:8098/buckets/s23684/keys/Pawel' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "firstName": "Pawel",
+    "lastName": "Kowalski",
+    "age": 47,
+    "height": 173.5
+}'
+
+curl --location --request POST 'http://localhost:8098/buckets/s23684/keys/Jan' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "firstName": "Jan",
+    "lastName": "Nowak",
+    "age": 25,
+    "height": 190.0
+}'
+
+2.
+curl -i --location --request GET 'http://localhost:8098/buckets/s23684/keys/John'
+
+3.
+curl -i --location --request PUT 'http://localhost:8098/buckets/s23684/keys/John' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "firstName": "John",
+    "lastName": "Smith",
+    "age": 20,
+    "height": 185.5,
+    "sex": "M"
+}'
+4.
+curl --location --request PUT 'http://localhost:8098/buckets/s23684/keys/John' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "firstName": "John",
+    "lastName": "Smith",
+    "age": 20,
+    "sex": "M"
+}'
+
+5.
+curl -i --location --request PUT 'http://localhost:8098/buckets/s23684/keys/John' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "firstName": "John",
+    "lastName": "Smith",
+    "age": 22,
+    "sex": "M"
+}'
+
+6.
+curl -i --location --request DELETE 'http://localhost:8098/buckets/s23684/keys/Jane'
+
+7.
+curl -i --location --request GET 'http://localhost:8098/buckets/s23684/keys/Nope'
+
+8.
+curl -i --location --request POST 'http://localhost:8098/buckets/s23684/keys' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "firstName": "John",
+    "lastName": "Doe",
+    "sex": "M"
+}'
+
+9.
+curl -i --location --request GET 'http://localhost:8098/buckets/s23684/keys/8pecy1R3p0KE9vSzeBfqnkMuuDS'
+
+10.
+curl -i --location --request DELETE 'http://localhost:8098/buckets/s23684/keys/8pecy1R3p0KE9vSzeBfqnkMuuDS'
